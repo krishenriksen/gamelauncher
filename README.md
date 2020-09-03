@@ -1,8 +1,6 @@
 # GameLauncher
 GameLauncher for TwisterOS.
 
-![GameLauncher Screenshot](data/screenshot.png?raw=true)
-
 ## Building, Testing, and Installation
 
 You'll need the following dependencies:
