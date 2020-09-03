@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=GameLauncher
+Comment=GameLauncher for TwisterOS.
+Exec=gamelauncher
+Icon=applications-games
+Terminal=false
+StartupNotify=false
+Type=Application

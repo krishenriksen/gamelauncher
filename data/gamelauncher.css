@@ -1,0 +1,56 @@
+/*
+* Copyright (c) 2011-2020 Spotlight
+*
+* This program is free software; you can redistribute it and/or
+* modify it under the terms of the GNU General Public
+* License as published by the Free Software Foundation; either
+* version 2 of the License, or (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+* General Public License for more details.
+*
+* You should have received a copy of the GNU General Public
+* License along with this program; if not, write to the
+* Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+* Boston, MA 02110-1301 USA
+*
+* Authored by: Kris Henriksen <krishenriksen.work@gmail.com>
+*/
+
+.gamelauncher {
+	color: #dadada;
+}
+
+.gamelauncher_left_scroll {
+	min-width: 280px;
+	min-height: 600px;
+}
+
+.gamelauncher_appsbar {
+	background: #24292f;
+}
+
+.gamelauncher_appsbar label {
+	color: #dadada;
+}
+
+.gamelauncher_appsbar button:hover {
+	color: #ffffff;
+	background: #555555;
+}
+
+.gamelauncher_right_scroll {
+	min-width: 520px;
+	min-height: 600px;
+	background: #6a6d76;
+}
+
+.gamelauncher_right_scroll image {
+	margin: 0 0 0 20px;
+}
+
+.gamelauncher_right_scroll button {
+	margin: 20px;
+}
