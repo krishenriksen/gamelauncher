@@ -131,10 +131,7 @@ public class GameLauncherWindow : Window {
 	        var app_command = new Button ();
 	        app_command.label = app["name"];
 			app_command.clicked.connect ( () => {
-
 				string command = "wine " + app["command"].replace(" ", "\\ ");
-
-				message(command);
 
 				try {
 		            GLib.AppInfo.create_from_commandline(command, null, GLib.AppInfoCreateFlags.NEEDS_TERMINAL).launch (null, null);
