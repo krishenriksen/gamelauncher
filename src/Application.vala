@@ -60,7 +60,7 @@ public class GameLauncherWindow : Window {
 					// launch .desktop file
 			        try {
 			            if (app["terminal"] == "true") {
-							GLib.AppInfo.create_from_commandline("wine " + app["command"], null, GLib.AppInfoCreateFlags.NEEDS_TERMINAL).launch (null, null);
+							GLib.AppInfo.create_from_commandline(app["command"], null, GLib.AppInfoCreateFlags.NEEDS_TERMINAL).launch (null, null);
 			            } else {
 			                new GLib.DesktopAppInfo.from_filename (app["desktop_file"]).launch (null, null);
 			            }
@@ -132,7 +132,7 @@ public class GameLauncherWindow : Window {
 	        app_command.label = app["name"];
 			app_command.clicked.connect ( () => {
 
-				string command = app["command"].replace(" ", "\\ ");
+				string command = "wine " + app["command"].replace(" ", "\\ ");
 
 				message(command);
 
